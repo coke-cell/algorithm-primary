@@ -1,5 +1,10 @@
 package class01;
 
+/**
+ * 展现不同算法优劣
+ * 1. 求1+2!+3!+...+N!的结果，每一步都求阶乘最后相加
+ * 2. 求1+2!+3!+...+N!的结果，每一步先乘以当前数再和之前的和相加（更优秀）
+ */
 public class Code02_SumOfFactorial {
 
 	public static long f1(int N) {

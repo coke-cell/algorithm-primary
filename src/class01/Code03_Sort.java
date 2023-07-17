@@ -1,5 +1,11 @@
 package class01;
 
+/**
+ * 排序算法
+ * 选择排序（不稳定）
+ * 冒泡排序
+ * 插入排序
+ */
 public class Code03_Sort {
 
 	public static void swap(int[] arr, int i, int j) {

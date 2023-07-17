@@ -1,5 +1,12 @@
 package class01;
 
+/**
+ * 位运算相关代码
+ * 1. 打印二进制代码实现
+ * 2. -a = ～a + 1
+ * 3. 无符号右移只填0
+ * 4. 32位最大值为 20多亿，最大值再 + 1则溢出变为最小值
+ */
 public class Code01_PrintBinary {
 
 	public static void print(int num) {
@@ -54,11 +61,11 @@ public class Code01_PrintBinary {
 //		print(a >> 1);
 //		print(a >>> 1);
 //		
-//		int c = Integer.MIN_VALUE;
-//		int d = -c ;
-//		
-//		print(c);
-//		print(d);
+		int c = Integer.MIN_VALUE;
+		int d = -c ;
+
+		print(c);
+		print(d);
 
 	}
 
